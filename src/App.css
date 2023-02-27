@@ -19,7 +19,7 @@ body {
   gap: 10px;
 }
 
-h1 {
+.intro h1 {
   width: 652px;
   height: 48px;
   margin: 0;
@@ -29,7 +29,7 @@ h1 {
   color: #da2348;
 }
 
-p {
+.intro p {
   width: 517px;
   height: 44px;
   margin: 0;

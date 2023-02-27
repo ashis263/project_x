@@ -7,7 +7,7 @@ export default function App() {
   const [datas, setDatas] = useState([]);
     useEffect(() =>{
         const fetchDatas = async () => {
-            let result = await fetch("http://localhost:3000/api");
+            let result = await fetch("https://json-server-tan.vercel.app/api");
             let json = await result.json();
             setDatas(json);
         }
