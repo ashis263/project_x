@@ -6,7 +6,6 @@ body {
 
   position: absolute;
   width: 1213px;
-  height: 1297px;
   left: 149px;
   top: 51px;
 }
@@ -20,8 +19,6 @@ body {
 }
 
 .intro h1 {
-  width: 652px;
-  height: 48px;
   margin: 0;
   font-size: 48px;
   line-height: 48px;
@@ -31,7 +28,6 @@ body {
 
 .intro p {
   width: 517px;
-  height: 44px;
   margin: 0;
   font-weight: 400;
   font-size: 20px;
@@ -41,13 +37,11 @@ body {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  row-gap: 60px;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
   position: absolute;
-  width: 1213px;
-  height: 1150px;
   left: 0px;
   top: 147px;
 }
