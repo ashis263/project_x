@@ -40,14 +40,6 @@ body {
   color: #000000;
 }
 
-/* .cards {
-  width: 1213px;
-  height: 1150px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-} */
-
 .cards {
   display: grid;
   grid-template-columns: auto auto auto;

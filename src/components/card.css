@@ -1,37 +1,53 @@
-.vector1 {
-  position: absolute;
-  z-index: 2;
-  width: 391px;
-  height: 170.77px;
-  left: 0px;
-  top: 375.23px;
-
-  /* White */
-
-  background: #fdfdfd;
+.card{
+  position: relative;
+  width: 390px;
+  height: 542px;
 }
 
-.vector2 {
+.container{
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  width: 388.95px;
-  height: 170.77px;
-  left: 2.05px;
-  top: 365px;
-
-  background: #ff0000;
-  z-index: 1;
+  bottom: 0;
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.vector1 h1 {
+svg{
+  margin-top: 40px;
+}
+
+h2 {
   font-weight: 700;
   font-size: 24.5424px;
   line-height: 33px;
-  color:black;
+  color: black;
 }
 
-.vector2 p {
+p {
   font-weight: 400;
   font-size: 18.4068px;
   line-height: 22px;
   text-align: justify;
+}
+
+button {
+  display: none;
+  margin: auto;
+  padding: 10px 16px;
+  width: 295px;
+  height: 48px;
+  color: white;
+  background: #da2348;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.container:hover button{
+  display: block !important;
 }

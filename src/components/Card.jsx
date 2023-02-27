@@ -5,17 +5,25 @@ import Icon from "../components/Icon";
 export default function card(props) {
   return (
     <div
+      className="card"
       style={{
         backgroundImage: `url('../assets/${props.image}')`,
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="vector1">
-        <Icon className="icon" />
-        <h1>{props.title}</h1>
-        <p>{props.description}</p>
+      <div
+        className="container"
+        style={{
+          backgroundImage: `url('../assets/container.png')`,
+        }}
+      >
+        <div className="items">
+          <Icon />
+          <h2>{props.title}</h2>
+          <p>{props.description}</p>
+          <button>View Details</button>
+        </div>
       </div>
-      <div className="vector2"></div>
     </div>
   );
 }
